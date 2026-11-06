@@ -1,0 +1,41 @@
+.package-card {
+  background-color: white;
+  width: 280px;
+  border: 1px solid #d8d1e8;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 2px 5px #ccc;
+  box-sizing: border-box;
+}
+
+.package-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.package-info {
+  padding: 12px 15px;
+}
+
+.package-info h3 {
+  color: #483681;
+  margin: 0 0 8px 0;
+}
+
+.package-info p {
+  margin: 4px 0;
+}
+
+.package-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #25245e;
+}
+
+@media (max-width: 600px) {
+  .package-card {
+    width: 100%;
+  }
+}

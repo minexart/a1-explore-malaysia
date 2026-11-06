@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "destination": "Langkawi Island Getaway",
+    "category": "Beach",
+    "duration": "3 Days 2 Nights",
+    "price": 899,
+    "image": "/images/langkawi.jpg",
+    "description": "Relax on white sandy beaches, ride the SkyCab cable car and enjoy duty-free shopping on Malaysia's most famous island.",
+    "highlights": ["Langkawi SkyCab and Sky Bridge", "Island hopping boat tour", "Sunset dinner at Pantai Cenang"]
+  },
+  {
+    "id": 2,
+    "destination": "Redang Island Snorkelling",
+    "category": "Beach",
+    "duration": "4 Days 3 Nights",
+    "price": 1250,
+    "image": "/images/redang.jpg",
+    "description": "Crystal clear water and coral reefs make Redang one of the best places in Malaysia for snorkelling and diving.",
+    "highlights": ["Two guided snorkelling trips", "Marine park visit", "Beachfront chalet stay"]
+  },
+  {
+    "id": 3,
+    "destination": "Penang Heritage and Food Trail",
+    "category": "Culture",
+    "duration": "3 Days 2 Nights",
+    "price": 650,
+    "image": "/images/penang.jpg",
+    "description": "Walk through George Town's UNESCO heritage streets, see the famous street art and taste Penang's best hawker food.",
+    "highlights": ["George Town street art walk", "Penang Hill funicular ride", "Hawker food tasting tour"]
+  },
+  {
+    "id": 4,
+    "destination": "Historic Melaka Tour",
+    "category": "Culture",
+    "duration": "2 Days 1 Night",
+    "price": 380,
+    "image": "/images/melaka.jpg",
+    "description": "Discover Melaka's history at A Famosa and the Stadthuys, then enjoy the Jonker Street night market.",
+    "highlights": ["A Famosa and St. Paul's Hill", "Melaka River cruise", "Jonker Street night market"]
+  },
+  {
+    "id": 5,
+    "destination": "Kuala Lumpur City Explorer",
+    "category": "City",
+    "duration": "3 Days 2 Nights",
+    "price": 720,
+    "image": "/images/kl.jpg",
+    "description": "See the Petronas Twin Towers, Batu Caves and the best shopping and food spots in Malaysia's capital city.",
+    "highlights": ["Petronas Twin Towers visit", "Batu Caves trip", "Bukit Bintang shopping"]
+  },
+  {
+    "id": 6,
+    "destination": "Ipoh Old Town and Caves",
+    "category": "City",
+    "duration": "2 Days 1 Night",
+    "price": 350,
+    "image": "/images/ipoh.jpg",
+    "description": "Explore Ipoh's colourful old town, limestone cave temples and famous white coffee.",
+    "highlights": ["Concubine Lane walk", "Kek Lok Tong cave temple", "Ipoh white coffee tasting"]
+  },
+  {
+    "id": 7,
+    "destination": "Cameron Highlands Escape",
+    "category": "Nature",
+    "duration": "2 Days 1 Night",
+    "price": 420,
+    "image": "/images/cameron.jpg",
+    "description": "Escape the heat in the cool highlands with tea plantations, strawberry farms and the Mossy Forest.",
+    "highlights": ["BOH tea plantation tour", "Mossy Forest boardwalk", "Strawberry farm visit"]
+  },
+  {
+    "id": 8,
+    "destination": "Mount Kinabalu Climb",
+    "category": "Nature",
+    "duration": "3 Days 2 Nights",
+    "price": 1680,
+    "image": "/images/kinabalu.jpg",
+    "description": "Climb Malaysia's highest mountain with a licensed guide and watch the sunrise from the summit.",
+    "highlights": ["Licensed mountain guide", "Overnight stay at Laban Rata", "Kinabalu Park entry and permits"]
+  }
+]
