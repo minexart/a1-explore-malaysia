@@ -1,3 +1,8 @@
+/**
+ * About: agency description and the "Why Travel With Us" highlights,
+ * each rendered with the reusable Highlight component.
+ */
+import Highlight from ".components/Highlight";
 function About() {
   return (
     <div className="container">

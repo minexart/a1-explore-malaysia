@@ -1,5 +1,9 @@
 import "./PackageCard.css";
 
+/**
+ * PackageCard: reusable card showing one package's destination, category, duration and price.
+ * Props: image, destination, category, duration, price. The destination doubles as the alt text.
+ */
 function PackageCard(props) {
     return (
         <div className="package-card">

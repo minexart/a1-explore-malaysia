@@ -5,6 +5,11 @@ import Contact from "./Contact";
 import About from "./About";
 import "./App.css";
 
+/**
+ * App: root component and client-side router.
+ * The header and footer render on every page; <Routes> swaps only the page inside <main>.
+ * Navigation uses <Link>, so moving between pages never reloads the browser.
+ */
 function App () {
   return(
     <BrowserRouter>

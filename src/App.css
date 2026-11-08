@@ -254,6 +254,13 @@ button:disabled {
   }
 }
 
+/* ---------- Home: clickable slide ---------- */
+.slider-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* ---------- Packages page ---------- */
 .package-list {
   display: flex;
@@ -283,6 +290,12 @@ button:disabled {
 }
 
 /* ---------- Contact form ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 select,
 textarea {
   padding: 10px;
@@ -305,4 +318,43 @@ textarea {
 
 small.error {
   margin-top: 4px;
+}
+
+/* ---------- Packages: search / filter / sort bar ---------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.filter-item label {
+  margin-top: 0;
+}
+
+.filters button {
+  margin-top: 0;
+}
+
+.result-count {
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .filter-item,
+  .filters button {
+    width: 100%;
+  }
 }
