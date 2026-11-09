@@ -34,6 +34,19 @@
   color: #25245e;
 }
 
+/* "View Details" link at the bottom of each card */
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #483681;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .package-card {
     width: 100%;

@@ -3,6 +3,7 @@ import Home from "./Home";
 import Packages from "./Packages";
 import Contact from "./Contact";
 import About from "./About";
+import PackageDetails from "./PackageDetails";
 import "./App.css";
 
 /**
@@ -26,6 +27,8 @@ function App () {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/packages" element={<Packages/>}/>
+            {/* :id is a route parameter; PackageDetails reads it with useParams() */}
+            <Route path="/packages/:id" element={<PackageDetails />} />
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
 

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import PackageCard from "./components/PackageCard";
+import { Link } from "react-router-dom";
 
 /**
  * Packages: loads travel packages from the mock API (public/packages.json) and renders
