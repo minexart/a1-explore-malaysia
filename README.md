@@ -1,16 +1,40 @@
-# React + Vite
+# Explore Malaysia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page application (SPA) for a Malaysian travel agency, built with React, Vite and React Router.
+DIT2163N Web and Mobile System — Assignment 1, UOW Malaysia.
 
-Currently, two official plugins are available:
+**Live site:** https://YOUR-VERCEL-LINK.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pages
+- **Home** — agency name, tagline and an auto-playing image slider
+- **Packages** — travel packages fetched from a mock API, with loading, error and no-data messages
+- **About** — agency description and highlights (reusable `Highlight` component)
+- **Contact** — feedback form with per-field validation and a success message
 
-## React Compiler
+## New features
+1. Search packages by destination
+2. Filter packages by category
+3. Sort packages by price (low to high / high to low)
+4. Package detail page (`/packages/:id`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Mock API
+Package data is served from `public/packages.json` and loaded with `fetch()` inside `useEffect`.
 
-## Expanding the ESLint configuration
+## Run locally
+    npm install
+    npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Image credits
+All photos from [Unsplash](https://unsplash.com), used under the Unsplash License.
+
+| File | Photographer | Source |
+|---|---|---|
+| kl.jpg | Elliot Andrews | https://unsplash.com/photos/PqE1B5FENoU |
+| beach.jpg | Nur Syafiqah | https://unsplash.com/photos/JyQl3BiCfCM |
+| langkawi.jpg | Simon Wiedensohler | https://unsplash.com/photos/M_JGvTZUFTY |
+| redang.jpg | Zachary Black | https://unsplash.com/photos/CaMh9ch2Qnw |
+| penang.jpg | Kelvin Zyteng | https://unsplash.com/photos/GduUowJExNk |
+| melaka.jpg | Fajri Hafizh | https://unsplash.com/photos/KszWGJEU2fo |
+| ipoh.jpg | John T | https://unsplash.com/photos/qaLBN7Moe7M |
+| cameron.jpg | Abdelrahman Ismail | https://unsplash.com/photos/R8Tb3D4SNtk |
+| kinabalu.jpg | Ong Cheng Zheng | https://unsplash.com/photos/juFTPN6uv3w |
