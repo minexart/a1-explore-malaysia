@@ -1,40 +1,33 @@
 # Explore Malaysia
 
-A single-page application (SPA) for a Malaysian travel agency, built with React, Vite and React Router.
-DIT2163N Web and Mobile System — Assignment 1, UOW Malaysia.
+A travel agency website made with React for DIT2163N Assignment 1.
 
-**Live site:** https://YOUR-VERCEL-LINK.vercel.app
+Live website: https://a1-explore-malaysia.vercel.app/
 
 ## Pages
-- **Home** — agency name, tagline and an auto-playing image slider
-- **Packages** — travel packages fetched from a mock API, with loading, error and no-data messages
-- **About** — agency description and highlights (reusable `Highlight` component)
-- **Contact** — feedback form with per-field validation and a success message
+- Home: agency name, tagline and a picture slider
+- Packages: list of travel packages loaded from packages.json
+- About: about the agency and why travel with us
+- Contact: feedback form that checks for empty fields
 
 ## New features
 1. Search packages by destination
 2. Filter packages by category
-3. Sort packages by price (low to high / high to low)
-4. Package detail page (`/packages/:id`)
+3. Sort packages by price
+4. Package details page
 
-## Mock API
-Package data is served from `public/packages.json` and loaded with `fetch()` inside `useEffect`.
-
-## Run locally
+## How to run
     npm install
     npm run dev
 
-## Image credits
-All photos from [Unsplash](https://unsplash.com), used under the Unsplash License.
-
-| File | Photographer | Source |
-|---|---|---|
-| kl.jpg | Elliot Andrews | https://unsplash.com/photos/PqE1B5FENoU |
-| beach.jpg | Nur Syafiqah | https://unsplash.com/photos/JyQl3BiCfCM |
-| langkawi.jpg | Simon Wiedensohler | https://unsplash.com/photos/M_JGvTZUFTY |
-| redang.jpg | Zachary Black | https://unsplash.com/photos/CaMh9ch2Qnw |
-| penang.jpg | Kelvin Zyteng | https://unsplash.com/photos/GduUowJExNk |
-| melaka.jpg | Fajri Hafizh | https://unsplash.com/photos/KszWGJEU2fo |
-| ipoh.jpg | John T | https://unsplash.com/photos/qaLBN7Moe7M |
-| cameron.jpg | Abdelrahman Ismail | https://unsplash.com/photos/R8Tb3D4SNtk |
-| kinabalu.jpg | Ong Cheng Zheng | https://unsplash.com/photos/juFTPN6uv3w |
+## Photo credits
+All photos are from Unsplash.
+- kl.jpg: Elliot Andrews
+- beach.jpg: Nur Syafiqah
+- langkawi.jpg: Simon Wiedensohler
+- redang.jpg: Zachary Black
+- penang.jpg: Kelvin Zyteng
+- melaka.jpg: Fajri Hafizh
+- ipoh.jpg: John T
+- cameron.jpg: Abdelrahman Ismail
+- kinabalu.jpg: Ong Cheng Zheng
