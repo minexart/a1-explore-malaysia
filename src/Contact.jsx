@@ -71,6 +71,24 @@ function Contact() {
     <div className="container">
       <h2>Contact Us</h2>
       <p>Have a question or feedback? Send us a message.</p>
+      <div className="contact-info">
+        <h3>Contact Person</h3>
+        <p>
+          <strong>Name:</strong> Ms. Nur Aisyah (Customer Service)
+        </p>
+        <p>
+          <strong>Phone:</strong> +60 4-123 4567
+        </p>
+        <p>
+          <strong>Email:</strong> info@exploremalaysia.com
+        </p>
+        <p>
+          <strong>Address:</strong> Batu Kawan, Penang, Malaysia
+        </p>
+        <p>
+          <strong>Office hours:</strong> Mon–Fri, 9:00 am – 6:00 pm
+        </p>
+      </div>
 
       <form onSubmit={handleSubmit} noValidate>
         <label htmlFor="name">Name</label>
